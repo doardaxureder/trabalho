@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="paginacompra2.css">
+    <title>Ração Golden para Gatos</title>
+</head>
+<body>
+
+    <header>
+        <div class="container_header">
+            <!--Colocar as imagens e a barra de pesquisa-->
+                <a href="./petshop11.html"><img src="logopetshop.png" class="logo"></a>
+                <div class="pesquisa">
+                    <form>
+                        <legend></legend>
+                        <label for="n1"></label>
+                        <input type="text" id="n1" placeholder="Pesquisar na Eita Galopera"><br>
+                    </form>
+                </div>
+                <div class="botoes">
+                    <img src="logotipo2.png">
+                    <img src="logotipo3.png">
+                    <img src="logotipo4.png">
+                </div>
+            </div>
+    </header>
+
+    <section class="home">
+        <div class="home-img">
+            <img src="racaomiau.png" class="one">
+        </div><!--home-img-->
+
+        <div class="home-text">
+
+            <h1>Ração <br> Golden</h1>
+            <h5>A melhor ração para seu gatinho</h5>
+            <h3>$159.00</h3>
+            <a href="#" class="btn">Compre Agora</a>
+            
+        </div><!--home-text-->
+
+        <div class="informacao-produto">
+            <h2>Informações do produto: </h2>
+            <h4>BlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBla<br>BlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBla<br>BlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaB<br>laBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBla<br>BlaBlaBlaBlaBlaBlaBlaBlaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBla<br>BlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBla<br>BlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaB<br>laBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBla<br>BlaBlaBlaBlaBlaBlaBla</h4>
+        </div>
+    </section><!--home-->
+
+
+
+
+     
+  
+    <script>
+        function slider (anything){
+            document.querySelector ('.one') .src = anything;
+        };
+
+       let menu = document.querySelector ('#menu-icon');
+       let navbar = document.querySelector ('.navbar');
+
+       menu.onclick = () => {
+        menu.classList.toggle ('bx-x');
+        navbar.classList.toggle ('open');
+       }
+    </script>
+
+<footer>
+    <!--rodape-->
+    <div class="textorodape">
+        <div class="titulo">
+       Entre em contato com nós!!<br>
+       </div>
+        email:<i> eitagalopera@gmail.com</i><br>
+        número: (53) 2222-4444 <br> 
+        endereço: Alfredo Huck, 475, Rio Grande - RS
+    </div>
+    <div class="links">
+        <a href="https://www.instagram.com/galo_pera._.729/" class="instagram"><img class="redes" src="./instagram.png"></a>
+        <a href="https://twitter.com/galoperaaaa" class="instagram"><img class="redes" src="./facebook.png"></a>
+        <a href="https://www.tiktok.com/@nickolly.x/video/7230228513599573254?q=galopera&t=1684506347280" class="instagram"><img class="redes" src="./tiktok.png"></a>
+        <a href="https://br.pinterest.com/pin/400327854368213316/" class="instagram"><img class="redes" src="./pinterest.png"></a>
+        <a href="https://www.instagram.com/galo_pera._.729/" class="instagram"><img class="redes" src="./youtube.png"></a>
+    </div>
+</footer>
+    
+</body>
+</html>
